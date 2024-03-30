@@ -5,6 +5,7 @@ PLEASE FOLLOW THIS SCRIPT FOR STARTING APPS
 -> IF OPEN BY VISUAL STUDIO CODE USING THIS COMMAND :
    go run ./
 -> or if want cloning by url git : 
+   git clone https://github.com/dh4nil0ver5/testproject.git testproject
    
 
 IMPORTANT !
