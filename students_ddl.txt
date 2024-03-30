@@ -1,0 +1,17 @@
+-- public.students definition
+
+-- Drop table
+
+-- DROP TABLE public.students;
+
+CREATE TABLE public.students (
+	id serial4 NOT NULL,
+	created_at timestamptz NULL,
+	updated_at timestamptz NULL,
+	deleted_at timestamptz NULL,
+	"name" varchar NULL,
+	student_id int4 NULL,
+	starting_year int4 NULL,
+	CONSTRAINT students_pkey PRIMARY KEY (id)
+);
+CREATE INDEX idx_students_deleted_at ON public.students USING btree (deleted_at);
